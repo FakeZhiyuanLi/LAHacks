@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Futura";
+  background-color: #7ea9ff;
+  color: black;
+}
+
+img {
+  width: 40%;
+  height: 50%;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rounded-button {
+	font-family: monospace;
+	font-size: 30px;
+	color: white;
+	background-color: #7289DA;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 15px;
+	cursor: pointer;
+	user-select: none;
+	-webkit-transition: background-color 0.25s ease-out;
+	-moz-transition: background-color 0.25s ease-out;
+	-o-transition: background-color 0.25s ease-out;
+	transition: background-color 0.25s ease-out;
+}
+
+.rounded-button:hover {
+	background-color: #5865F2;
+	box-shadow: 0 5px 20px color: #7289DA inset 0 0 20px #7289DA;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 8px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	background: transparent;
+}
